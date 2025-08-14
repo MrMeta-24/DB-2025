@@ -140,4 +140,11 @@ SELECT data FROM consultas WHERE hora < '13:00';
 
 SELECT DISTINCT cidade FROM pacientes;
 
+
 SELECT andar FROM ambulatorio WHERE andar IS NOT NULL;
+
+SELECT nome, idade * 12 AS meses FROM paciente;
+
+SELECT 
+
+SELECT MAX (hora) AS horarrio_mais_tarde FROM consultas WHERE data = '2003-05-13';
